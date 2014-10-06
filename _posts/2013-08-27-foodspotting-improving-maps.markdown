@@ -97,7 +97,7 @@ Here's the sketch of the idea:
 * Make it work in landscape, too. `s/top/left/g`
 * Put things back where they were when we're done.
 
-![Info window](https://googledrive.com/host/0B99yjQUorG9jQ3NVclRCelpIN0U/info-overlay-explode.png)
+![Info window](/assets/info-overlay-explode.png)
 
 The info window layout needs to cover the whole screen but allow us to position the list inside of it:
 
@@ -207,7 +207,7 @@ Here's how Foodspotting's implementation looks in portrait and landscape modes:
 
 Portrait | Landscape
 -------- | ---------
-![Info Window Portrait](https://googledrive.com/host/0B99yjQUorG9jQ3NVclRCelpIN0U/info-window-port-thumb.png) | ![Info Window Landscape](https://googledrive.com/host/0B99yjQUorG9jQ3NVclRCelpIN0U/info-window-land-thumb.png)
+![Info Window Portrait](/assets/info-window-port-thumb.png) | ![Info Window Landscape](/assets/info-window-land-thumb.png)
 
 
 
@@ -217,7 +217,7 @@ Portrait | Landscape
 
 To really bring the focus to the content, we can dim the map and animate the change from “browse mode” to "info window mode" by making a spotlight effect animation.
 
-![Spotlight Animation](https://googledrive.com/host/0B99yjQUorG9jQ3NVclRCelpIN0U/spotlight-animation.gif "Spotlight Animation")
+![Spotlight Animation](/assets/spotlight-animation.gif "Spotlight Animation"){: #spotlight_anim 'rel:animated_src'="/assets/spotlight-animation.gif"}
 
 
 **Spotlight implementation**
@@ -310,3 +310,11 @@ _[OpenTable](http://www.opentable.com) is the world's leading provider of online
 
 _[Foodspotting](http://www.foodspotting.com) is an app for finding and recommending great dishes, not just restaurants. With this visual guide to good food and where to find it, you can find whatever you’re craving, see what’s good at any restaurant and learn what foodspotters, friends and experts love wherever you go. Foodspotting was acquired by OpenTable in 2013 who has continued to support it as a standalone app._
  
+{::comment }
+<script type="text/javascript" src="/assets/js/libgif.js"></script>
+<script type="text/javascript" src="/assets/js/rubbable.js"></script>
+<script type="text/javascript">
+   var sup1 = new SuperGif({ gif: document.getElementById('spotlight_anim'), auto-play: false, rubbable: true } );
+   sup1.load();
+</script>
+{:/comment}
