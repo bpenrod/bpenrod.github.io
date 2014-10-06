@@ -2,7 +2,7 @@
 title: Catch Your Carp with Subtle Argument
 email: bpenrod@gmail.com
 author: Bob Penrod
-description: "A collection of odds and ends."
+description: "A collection of odds and ends. Programming ideas for Android, hopefully a occasional bit of cleverness."
 baseurl: ""
 url: "http://bpenrod.github.io"
 google_analytics:
@@ -15,3 +15,5 @@ permalink: pretty
 paginate: 3
 sass:
   compressed: true
+gems:
+  - jekyll-sitemap

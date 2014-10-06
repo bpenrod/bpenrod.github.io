@@ -18,11 +18,17 @@ body {
 }
 
 html, body {
+font-size: 75%;
   height: 100%;
 }
 
 img {
   width: 100%;
+}
+
+img.inline {
+    width: 1rem;
+    height: 1rem;
 }
 
 .site-wrap {
